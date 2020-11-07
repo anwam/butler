@@ -1,0 +1,12 @@
+{
+  "name": "butler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:SwerBillionaire/butler.git",
+  "author": "Anuwong Mongkudkornburee <anuwong@dollarsign.co>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "telegraf": "^3.38.0"
+  }
+}
