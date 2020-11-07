@@ -6,7 +6,16 @@
   "author": "Anuwong Mongkudkornburee <anuwong@dollarsign.co>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "telegraf": "^3.38.0"
+    "telegraf": "^3.38.0",
+    "telegraf-inline-menu": "^5.3.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
